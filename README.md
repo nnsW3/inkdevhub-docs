@@ -25,11 +25,11 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 
   - Clone repo `git clone https://github.com/inkdevhub/inkdevhub-docs`
   - Install dependencies by running `yarn` (`cd inkdevhub-docs`, `yarn` )
-  - `yarn start` - spin up a realtime website that updates dynamically based on your changes to the code.
+  - `yarn start` - spin up a real-time website that updates dynamically based on your changes to the code.
 
 ### New document / Modify existing document --> Submit a PR
   
-  -  Get latest version of docs locally
+  -  Get the latest version of docs locally
       - Make sure you’re on the main branch (`git checkout main`)
       - Pull the latest version of the docs (`git pull`)
       - Create a new branch (`git checkout -b feat/new-feature-name-here`)
