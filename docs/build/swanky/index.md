@@ -18,7 +18,7 @@ Swanky Suite offers an extensible set of features, allowing developers to:
 - Provide Typescript based integration testing simulating interaction from the client-side;
 - Handle and manage network accounts;
 - Deploy smart contracts within the Polkadot ecosystem to networks that support `pallet-contracts`;
-- Make arbitrary calls to deployed smart contracts.
+- Make arbitrary calls to deploy smart contracts.
 
 ## Architecture Overview
 
