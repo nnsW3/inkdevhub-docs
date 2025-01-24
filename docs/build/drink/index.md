@@ -2,7 +2,7 @@
 
 ## In brief
 
-DRink! is a toolbox for ink! developers that allows for a fully functional ink! contract development without any running node. It provides you with a unique, yet very powerful environment for interacting with contracts:
+DRink! is a toolbox for ink! developers that allows for a fully functional ink! contract-development without any running node. It provides you with a unique, yet very powerful environment for interacting with contracts:
 
 - deploy and call your contracts synchronously, **without any delays** related to block production or networking
 - gain access to **powerful features** that are not available with standard methods like **contract mocking, enhanced debugging and call tracing**
@@ -41,7 +41,7 @@ Before DRink!, you could have used ink!'s native test framework to execute eithe
 
 This paradigm is a peculiar compromise between the two other strategies. We give up the node layer (including networking, block production etc.), but we still have a fully functional runtime with attached storage. In other words, we keep bare blockchain state in-memory, and we can interact with it directly however we want.
 
-This way, we gain full control over the runtime, sacrificing real simulation of the blockchain environment. However, usually, this is higly beneficial for the development process, as it allows for a much faster feedback loop, assisted with better insights into execution externalities.
+This way, we gain full control over the runtime, sacrificing real simulation of the blockchain environment. However, usually, this is highly beneficial for the development process, as it allows for a much faster feedback loop, assisted with better insights into execution externalities.
 
 ---
 
